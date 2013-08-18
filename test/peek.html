@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mocha</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../libs/mocha/mocha.css" />
+  </head>
+  <body>
+    <div id="mocha"></div>
+    <script src="../libs/mocha/mocha.js"></script>
+    <script src="../libs/sinon.js"></script>
+    <script src="../libs/chai.js"></script>
+    <script src="../libs/jquery-loader.js"></script>
+    <script src="../libs/jquery/jquery.simulate.js"></script>
+    <script src="../src/peek.js"></script>
+    <script>
+      mocha.setup('bdd')
+      chai.should();
+    </script>
+    <script src="peek-tests.js"></script>
+    <script>
+      mocha.run();
+    </script>
+  </body>
+</html>
