@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <title>jQuery Peek</title>
+
+    <link rel="stylesheet" type="text/css" href="libs/foundation/foundation.min.css">
+    <link rel="stylesheet" type="text/css" href="demo.css">
+
+  </head>
+
+  <body>
+
+    <a href="https://github.com/nrdobie/jquery-peek" class="hide-for-small"><img style="position: fixed; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
+
+    <div class="row">
+      <div class="large-12 columns">
+        <h1>jQuery Peek <small>v.0.1.1</small></h1>
+        <h4 class="subheader">jQuery Peek is a great way to keep your navigation while preserving your
+          precious screen realestate for your content. While the user is viewing the page, the
+          navigation is tucked away. When the user scrolls up <em>(or down)</em>, the navigation will
+          reapear. Check out the examples below to see Peek in action.</h4>
+        <p>
+          <a class="button" href="https://raw.github.com/nrdobie/jquery-peek/master/dist/jquery.peek.min.js">Download Production</a>
+          <a href="https://raw.github.com/nrdobie/jquery-peek/master/dist/jquery.peek.js">Download Development</a> |
+          <a href="https://github.com/nrdobie/jquery-peek">View on GitHub</a>
+        </p>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="small-12 large-6 columns">
+        <h2>Twitter's Bootstrap</h2>
+        <p>Using Bootstrap with Peek is easy simply call Peek on the navbar and you're done. No
+          customization needed.</p>
+        <h3>Example</h3>
+        <p><strong>JavaScript</strong></p>
+        <pre class="panel"><code>$('.navbar').peek();</code></pre>
+        <p><a href="bootstrap.html" class="button radius">View Full Screen Demo</a> <a href="http://getbootstrap.com">Get Bootstrap</a></p>
+      </div>
+      <div class="large-6 columns hide-for-small">
+        <iframe class="iphone-vertical right" src="bootstrap.html" width="322" height="568"></iframe>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="large-6 columns hide-for-small">
+        <iframe class="iphone-vertical" src="foundation.html" width="322" height="568"></iframe>
+      </div>
+      <div class="small-12 large-6 columns">
+        <h1>Zurb Foundation</h1>
+        <p>Foundation isn't quite out-of-the-box ready as Bootstrap, but with some simple CSS
+          styling Foundation is ready to go.</p>
+        <h3>Example</h3>
+        <p><strong>CSS</strong></p>
+        <pre class="panel"><code>body {
+  padding-top: 60px;
+}
+
+.top-bar {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  top: 0;
+  -moz-transition: top 0.2s ease-in-out;
+  -o-transition: top 0.2s ease-in-out;
+  -webkit-transition: top 0.2s ease-in-out;
+  transition: top 0.2s ease-in-out;
+}
+
+.top-bar.hidden {
+  top: -45px;
+}</code></pre>
+        <p><strong>JavaScript</strong></p>
+        <pre class="panel"><code>$('.top-nav').peek();</code></pre>
+        <p><a href="foundation.html" class="button radius">View Full Screen Demo</a> <a href="http://foundation.zurb.com">Get Foundation</a></p>
+      </div>
+    </div>
+
+  </body>
+
+</html>
+

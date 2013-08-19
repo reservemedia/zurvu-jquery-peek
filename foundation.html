@@ -12,8 +12,8 @@
   <title>Welcome to Foundation | Grid</title>
 
   <!-- Included CSS Files -->
-  <link rel="stylesheet" href="../libs/normalize.css">
-  <link rel="stylesheet" href="../libs/foundation/foundation.min.css">
+  <link rel="stylesheet" href="libs/normalize.css">
+  <link rel="stylesheet" href="libs/foundation/foundation.min.css">
 
   <style type="text/css">
 
@@ -26,6 +26,9 @@
       width: 100%;
       z-index: 10;
       top: 0;
+      -moz-transition: top 0.2s ease-in-out;
+      -o-transition: top 0.2s ease-in-out;
+      -webkit-transition: top 0.2s ease-in-out;
       transition: top 0.2s ease-in-out;
     }
 
@@ -271,9 +274,9 @@
     </div>
   </footer>
 
-  <script src="../libs/jquery-loader.js"></script>
-  <script src="../src/peek.js"></script>
-  <script src="../libs/foundation/foundation.min.js"></script>
+  <script src="libs/jquery-loader.js"></script>
+  <script src="dist/jquery.peek.js"></script>
+  <script src="libs/foundation/foundation.min.js"></script>
   <script>
     $(document).foundation();
     $('.top-bar').peek();

@@ -1,0 +1,9 @@
+iframe.iphone-vertical {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  background: url(libs/vertical-iphone.png);
+  border: none;
+  padding: 110px 25px 153px 70px;
+  margin-bottom: 50px;
+}

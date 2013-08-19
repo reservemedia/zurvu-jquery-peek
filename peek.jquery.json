@@ -2,8 +2,8 @@
   "name": "peek",
   "title": "Peek",
   "description": "Easy way to hide and show your navigation.",
-  "version": "0.1.0",
-  "homepage": "https://github.com/nrdobie/jquery-peek",
+  "version": "0.1.1",
+  "homepage": "https://nrdobie.github.io/jquery-peek",
   "author": {
     "name": "Nicholas Dobie",
     "email": "nick@nickdobie.com",
