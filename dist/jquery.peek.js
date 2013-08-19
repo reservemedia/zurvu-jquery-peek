@@ -1,5 +1,5 @@
-/*! Peek - v0.1.0 - 2013-08-18
-* https://github.com/nrdobie/jquery-peek
+/*! Peek - v0.1.1 - 2013-08-19
+* https://nrdobie.github.io/jquery-peek
 * Copyright (c) 2013 Nicholas Dobie; Licensed MIT */
 (function($) {
 
