@@ -1,6 +1,8 @@
 # jQuery.Peek
 
-Easy way to hide and show your navigation.
+jQuery Peek is a great way to keep your navigation while preserving your precious
+screen real estate for your content. While the user is viewing the page, the navigation
+is tucked away. When the user scrolls up (or down), the navigation will reappear.
 
 ## Getting Started
 Download the [production version][min] or the [development version][max].
@@ -42,11 +44,11 @@ show or hide the target element.
 
 ## Examples
 
-Checkout the `demo/demo.html` for working examples.
+Checkout the `index.html` for working examples.
 
 ### [Zurb Foundation](http://foundation.zurb.com)
 
-Zurb Foundation's top navigation bar by default isn't in a fixed postion but can be easily
+Zurb Foundation's top navigation bar by default isn't in a fixed position but can be easily
 done with a couple lines of CSS.
 
 ```css

@@ -1,7 +1,7 @@
 {
   "name": "peek",
   "title": "Peek",
-  "description": "Easy way to hide and show your navigation.",
+  "description": "jQuery Peek is a great way to keep your navigation while preserving your precious screen real estate for your content. While the user is viewing the page, the navigation is tucked away. When the user scrolls up (or down), the navigation will reaper.",
   "version": "0.1.1",
   "homepage": "https://nrdobie.github.io/jquery-peek",
   "author": {
