@@ -54,8 +54,19 @@ describe('jQuery#peek', function () {
 
     elem.hasClass('toggledClass').should.not.be.ok;
 
-
     scrollPoint = 49;
+
+    $(window).trigger('scroll.Peek');
+
+    elem.hasClass('toggledClass').should.not.be.ok;
+
+    scrollPoint = -50;
+
+    $(window).trigger('scroll.Peek');
+
+    elem.hasClass('toggledClass').should.not.be.ok;
+
+    scrollPoint = 0;
 
     $(window).trigger('scroll.Peek');
 

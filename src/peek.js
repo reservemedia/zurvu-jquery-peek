@@ -51,7 +51,10 @@
 
     settings.currentDelta += delta;
 
-    if ( Math.abs(settings.currentDelta) > settings.triggerDelta ) {
+    if ( currentScroll <= 0 ) {
+      settings.targetElements.removeClass(settings.toggleClass);
+    }
+    else if ( Math.abs(settings.currentDelta) > settings.triggerDelta ) {
       if ( directionality === settings.showDirection) {
         settings.targetElements.removeClass(settings.toggleClass);
       } else {

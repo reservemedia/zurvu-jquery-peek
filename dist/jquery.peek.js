@@ -1,6 +1,6 @@
-/*! Peek - v0.1.1 - 2013-08-19
+/*! Peek - v0.1.1 - 2014-05-13
 * https://nrdobie.github.io/jquery-peek
-* Copyright (c) 2013 Nicholas Dobie; Licensed MIT */
+* Copyright (c) 2014 Nicholas Dobie; Licensed MIT */
 (function($) {
 
   var defaults, peek;
@@ -44,7 +44,10 @@
 
     settings.currentDelta += delta;
 
-    if ( Math.abs(settings.currentDelta) > settings.triggerDelta ) {
+    if ( currentScroll <= 0 ) {
+      settings.targetElements.removeClass(settings.toggleClass);
+    }
+    else if ( Math.abs(settings.currentDelta) > settings.triggerDelta ) {
       if ( directionality === settings.showDirection) {
         settings.targetElements.removeClass(settings.toggleClass);
       } else {
