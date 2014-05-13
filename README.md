@@ -4,6 +4,11 @@ jQuery Peek is a great way to keep your navigation while preserving your preciou
 screen real estate for your content. While the user is viewing the page, the navigation
 is tucked away. When the user scrolls up (or down), the navigation will reappear.
 
+**Note:** This is a fork of the original repository that was originally forked to allow
+support for negative indices. 
+
+The major maintainer is: @mcollis.
+
 ## Getting Started
 Download the [production version][min] or the [development version][max].
 
