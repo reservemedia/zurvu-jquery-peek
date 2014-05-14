@@ -13,6 +13,10 @@
     "type": "git",
     "url": "https://github.com/nrdobie/jquery-peek.git"
   },
+  "fork": {
+    "type": "git",
+    "url": "https://github.com/zurvu/jquery-peek"
+  },
   "bugs": "https://github.com/nrdobie/jquery-peek/issues",
   "licenses": [
     {

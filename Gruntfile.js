@@ -8,7 +8,11 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('peek.jquery.json'),
     banner: '/*! <%= pkg.title || pkg.name %> - v<%= pkg.version %> - ' +
       '<%= grunt.template.today("yyyy-mm-dd") %>\n' +
-      '<%= pkg.homepage ? "* " + pkg.homepage + "\\n" : "" %>' +
+      '<%= pkg.homepage ? "* Homepage: " + pkg.homepage + "\\n" : "" %>' +
+      '<%= pkg.repository.url ? "* Original repo: " + pkg.repository.url + "\\n" : "" %>' +
+      '<%= pkg.fork.url ? "* This comes from a fork located here: " + pkg.fork.url + "\\n" : "" %>' +
+      '* If you are updating/replacing this file, please use the above repository \n' +
+      '* \n' +
       '* Copyright (c) <%= grunt.template.today("yyyy") %> <%= pkg.author.name %>;' +
       ' Licensed <%= _.pluck(pkg.licenses, "type").join(", ") %> */\n',
     // Task configuration.

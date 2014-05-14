@@ -1,5 +1,9 @@
-/*! Peek - v0.1.1 - 2014-05-13
-* https://nrdobie.github.io/jquery-peek
+/*! Peek - v0.1.1 - 2014-05-14
+* Homepage: https://nrdobie.github.io/jquery-peek
+* Original repo: https://github.com/nrdobie/jquery-peek.git
+* This comes from a fork located here: https://github.com/zurvu/jquery-peek
+* If you are updating/replacing this file, please use the above repository 
+* 
 * Copyright (c) 2014 Nicholas Dobie; Licensed MIT */
 (function($) {
 
